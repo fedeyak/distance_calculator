@@ -1,3 +1,11 @@
 spring:
   application:
     name: distance-calculator
+autoconfigure:
+  exclude:
+    - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+    - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+yandex:
+  api:
+    key:c8db57de-519d-4136-9ce0-4c890a3ac7fd
+
